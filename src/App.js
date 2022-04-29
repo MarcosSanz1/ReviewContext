@@ -1,25 +1,24 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Nav from './navigation/Nav'
+import MovieList from './components/MovieList'
+import AddMovie from './services/AddMovie'
+import { MovieProvider } from './services/MovieContext'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <MovieProvider>
+      <div className="App">
+        <Nav />
+        <AddMovie />
+        <MovieList />
+      </div>
+    </MovieProvider>
   );
 }
 
 export default App;
+
+// Hacer apuntes del video https://www.youtube.com/watch?v=35lXWvCuM8o&ab_channel=DevEd
+
+// Buscar en Google -> rails http status codes
