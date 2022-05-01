@@ -10,3 +10,5 @@ const Movie = ({name, price }) => {
 }
 
 export default Movie
+
+// Recogemos el nombre y el precio de la pelicula, para luego sacarlas por pantalla.

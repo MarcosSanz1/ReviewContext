@@ -39,3 +39,6 @@ const AddMovie = () => {
 }
 
 export default AddMovie;
+
+// Importamos y usamos el contexto para recoger los valores de las variables "En este caso la lista de peliculas".
+// Creamos dos variables de estado para recoger los valores de los inputs y con el boton meteremos en la lista de peliculas el nombre y precio de la nueva.

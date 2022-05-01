@@ -22,3 +22,6 @@ export const MovieProvider = props => {
     ]);
     return <MovieContext.Provider value={[movies, setMovies]}>{props.children}</MovieContext.Provider>
 }
+
+// Primero creamos un contexto para crear variables globales y poder pasarlas entre componentes.
+// Luego devolvemos el contexto con la lista de peliculas.

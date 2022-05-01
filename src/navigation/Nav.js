@@ -12,4 +12,6 @@ const Nav = () => {
     )
 }
 
-export default MovieList;
+export default Nav;
+
+// Importamos y usamos el contexto para recoger los valores de las variables "En este caso la lista de peliculas".

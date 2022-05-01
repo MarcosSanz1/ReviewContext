@@ -19,6 +19,6 @@ function App() {
 
 export default App;
 
-// Hacer apuntes del video https://www.youtube.com/watch?v=35lXWvCuM8o&ab_channel=DevEd
+// Englobamos los componentes con el contexto y los valores, para pasarle la lista de peliculas a todos los componentes.
 
-// Buscar en Google -> rails http status codes
+// Buscar -> rails http status codes (codigos para saber "errores/respuestas" que nos lanzan "ej: 400, 401")

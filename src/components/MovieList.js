@@ -17,3 +17,6 @@ const MovieList = () => {
 }
 
 export default MovieList;
+
+// Importamos y usamos el contexto para recoger los valores de las variables "En este caso la lista de peliculas".
+// Por último devolvemos la lista con map y le pasamos los datos al componente Movie.
